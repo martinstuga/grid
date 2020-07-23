@@ -121,6 +121,8 @@ public class GridUtils
 
             csvWriter.endRecord();
         }
+
+        csvWriter.flush();
     }
 
     /**
